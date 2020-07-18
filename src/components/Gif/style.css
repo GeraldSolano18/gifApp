@@ -1,0 +1,9 @@
+.Gif_container{
+    border:solid 2px red;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.Gif_title{
+    margin:0;
+}
