@@ -1,12 +1,11 @@
 import React, {useState} from 'react'
-import { Detail } from '../pages/Detail'
 
 const Context = React.createContext({})
 
 export function GifsContextProvider({children}) {
-    const [gifs,setGifs] =useState([])
+    const [gifs,setGif] =useState([])
 
-    return<Context.Provider value={{gifs,setGifs}}>
+    return<Context.Provider value={{gifs,setGif}}>
         {children}
     </Context.Provider>
 }

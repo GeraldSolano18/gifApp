@@ -7,7 +7,7 @@ import { useLocation } from 'wouter'
 export const Home = () => {
     const [path, pushLocation] = useLocation()
     const [keyword, setKeyword] = useState('')
-    const [loading, gifs] = useGifs()
+    const {loading, gifs} = useGifs()
 
     const handleSubmit = (e) => {
         e.preventDefault()
