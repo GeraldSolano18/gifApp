@@ -1,0 +1,12 @@
+:root {
+    --primaryColor:  #343a40;
+    --secondaryColor: #ffffff;
+  }
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  

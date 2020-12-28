@@ -5,11 +5,10 @@
 }
 
 .Gif_title{
-    font-size: 22px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    
     color: white;
-    margin:10px;
-    text-transform: uppercase;
+   
 }
 .quitarStyle{
     text-decoration: none !important;
@@ -17,7 +16,7 @@
 .img_gif{
     width: 100%;
     height: 250px;
-    border-radius: 6px;
+    border-radius: 3px;
     object-fit: cover;
     transition: 0.5s;
 

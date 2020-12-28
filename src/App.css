@@ -1,13 +1,31 @@
+@import './styles/global.css';
+
+
+.wrapper{
+  padding-top: 60px;
+ 
+}
+
+.presentacion{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  color: #ffff;
+  grid-template-columns: 1fr ;
+}
+
+
+
 .App {
   text-align: center;
 }
 .App-section {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
+/* background-color: red; */
+}
+.bg-img{
+  height: 400px;
+  width: 400px;
 }
 
 .search_input{
@@ -17,11 +35,11 @@ padding: 15px 0;
 }
 input{
   outline: none;
-  width: 80%;
+  width: 90%;
   font-size: 16px;
-  font-family: 'Courier New', Courier, monospace;
-  height: 35px;
+  
+  height: 40px;
   border: none;
-  border-radius: 8px;
+  border-radius: 3px;
 
 }
